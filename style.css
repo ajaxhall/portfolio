@@ -2,7 +2,7 @@ img {
     width: 600px;
 }
 video {
-    width: 100vw;
+    width: 10vw;
     height: 100vh;
     position: fixed;
     top: 0;
