@@ -11,7 +11,7 @@ body {
 .vid {
     width: 100vw;
     height: 100vh;
-    position: relative;
+    position: fixed;
 }
 .vid video {
     height: 100%;
@@ -54,6 +54,8 @@ div.foot {
     height: 55px;
     display: inline-block;
     place-items: center ;
+    bottom: -55px;
+    position: absolute;
 }
 div.foot p {
     font-size: 1.7rem;
