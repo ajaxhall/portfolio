@@ -1,0 +1,64 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+:root {
+    --font-color: rgb(255, 174, 0);
+}
+.vid {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.vid video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: bottom;
+}
+div.outer-container {
+    place-self: center;
+    padding-top: 47.5vh;
+}
+.text {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.vid .t, .vid .p {
+    z-index: 1;
+    color: var(--font-color);
+    margin: auto;
+    font-family: Prociono, sans-serif;
+}
+.t {
+    font-size: 7vh;
+}
+.p {
+    font-size: 3vh;
+}
+.text a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+.text a:hover {
+    filter: brightness(0.75);
+}
+div.foot {
+    background-color: var(--font-color);
+    filter: brightness(0.75);
+    width: 100vw;
+    height: 55px;
+    display: inline-block;
+    place-items: center ;
+    bottom: -55px;
+    position: absolute;
+}
+div.foot p {
+    font-size: 1.7rem;
+    font-family: Prociono, sans-serif;
+    color: white;
+}
