@@ -99,19 +99,19 @@ streetBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.add('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row vert">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959441/One_Way_Up_n58nkh.jpg" oncontextmenu="return false;">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959442/floral_jiw6el.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/One_Way_Up_n58nkh_idulhz.webp" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686568/floral_jiw6el_ykiruo.webp" oncontextmenu="return false;">
     </div>
     <div class="row cust7">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959441/walker_x7vyry.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959527/clover_carrier_dc8xdb.jpg" oncontextmenu="return false;">
     </div>
-    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959440/backseatwonder_1_hbhaxq.jpg" oncontextmenu="return false;">
-    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959442/structure_mi420n.jpg" oncontextmenu="return false;">
-    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959440/hydroelectrica_gt0hwq.jpg" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/backseatwonder_1_hbhaxq_ao5fro.webp" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/structure_mi420n_rilml3.webp" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/hydroelectrica_gt0hwq_esaprb.webp" oncontextmenu="return false;">
     <div class="row cust8">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959443/waiting_isvhwo.jpg" oncontextmenu="return false;">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959443/Seattle_from_Needles_kew2gl.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/waiting_isvhwo_pwwtdy.webp" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/Seattle_from_Needles_kew2gl_inx1vp.webp" oncontextmenu="return false;">
     </div>`
 });
 portraitBtn.addEventListener('click', () => {
