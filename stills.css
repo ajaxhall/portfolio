@@ -38,6 +38,9 @@ button:hover, a:hover, .bold{
     font-weight: bold;
     cursor: pointer;
 }
+button.bold:hover {
+    cursor: none;
+}
 /* image section */
 div.image-space-inner {
     width: 93.5%;
