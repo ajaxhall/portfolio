@@ -17,10 +17,10 @@
                         <h1>Contact</h1>
                         <form class="inputs" action="https://api.web3forms.com/submit" method="POST">
                             <input type="hidden" name="access_key" value="18dd051d-2552-411b-adcb-760b672c04ad">
-                            <label>Name<div class="reduce-gap"></div><br></br><input type="text" id="name" name="name" maxlength="50" required autocomplete="on"></label><br></br>
-                            <label>Email<div class="reduce-gap"></div><br></br><input type="email" id="email" name="email" maxlength="80" required autocomplete="on"></label><br></br>
-                            <label>Subject<div class="reduce-gap"></div><br></br><input type="text" id="subject" name="subject" optional autocomplete="off"></label><br></br>
-                            <label>Message<div class="reduce-gap"></div><br></br><textarea id="message" name="message" required autocomplete="off"></textarea></label><br></br>
+                            <input type="text" id="name" name="name" maxlength="50" placeholder="name" required autocomplete="on">
+                            <input type="text" id="subject" name="subject" optional placeholder="subject" autocomplete="off">
+                            <input type="email" id="email" name="email" maxlength="80" required placeholder="email@address.com" autocomplete="on">
+                            <textarea id="message" name="message" required autocomplete="off"></textarea>
                             <input type="submit" value="Submit" id="submit">
                         </form>
                         <div class="back"><a href="index.html">back to home</a></div>
