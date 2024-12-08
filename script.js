@@ -62,16 +62,24 @@ wildlifeBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.add('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957590/NDgoats_land_16x9_u6b1in.jpg" oncontextmenu="return false;">
+    <div class="row cust11">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733700170/birds_2_jtpqsx.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733700170/birds_sjfggi.jpg" oncontextmenu="return false;">
+    </div>
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957579/deer_at_lake_mcdonald_ytmxui.jpg" oncontextmenu="return false;">
-    <div class="row vert">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957588/Squirl_zuutb6.jpg" oncontextmenu="return false;">
+    <div class="row">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957583/ND_Bison_hpkoaw.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733700170/birds_1_fd4krw.jpg" oncontextmenu="return false;">
+    </div>
+    <div class="row cust10">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957591/DSC00490_1_ogezcr.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957587/MountainGoatTemp_bnmuy8.jpg" oncontextmenu="return false;">
     </div>`
 });
 lifestyleBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.add('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     javaDiv.innerHTML = 
-    `<div class="row cust4">
+    `<div class="row cust5">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960641/hanz_ldvla7.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960634/Lonely_Mountain_wnrkfm.jpg" oncontextmenu="return false;">
     </div>

@@ -82,3 +82,9 @@ div.cust8 {
 div.cust9 {
     grid-template-columns: 1fr 2fr;
 }
+div.cust10 {
+    grid-template-columns: 1fr 1.2fr;
+}
+div.cust11 {
+    grid-template-columns: 1fr 1.229fr;
+}
