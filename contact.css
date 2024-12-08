@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+:root {
+    --theme-color: #2E506D;
+}
+section.fixed {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+div.forum {
+    width: 800px;
+    height: 800px;
+    /*background-color: var(--theme-color);*/
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 4.5rem;
+    font-family: Prociono, sans-serif;
+}
+form.inputs, div.back {
+    width: fit-content;
+    margin: auto;
+}
+div.back, div.back a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: var(--theme-color);
+    font-size: 2rem;
+}
+a:hover {
+    filter: brightness(0.65);
+}
+label {
+    font-size: 2rem;
+    font-family: Prociono, sans-serif;
+}
+input, textarea {
+    width: 300px;
+    border-color: var(--theme-color);
+    border-radius: 5px;
+}
+textarea#message {
+    height: 70px;
+}
+.reduce-gap {
+    margin: -45px 0;
+}
+input:hover {
+    cursor: pointer;
+}
+input[type="submit"] {
+    display: block;
+    width: 150px;
+    height: 33px;
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: var(--theme-color);
+    border-width: 0;
+    color: #F7F8FA;
+    font-family: Prociono, sans-serif;
+    border-radius: 8px 12px;
+  }
+div.foot {
+    background-color: var(--theme-color);
+    /*filter: brightness(0.75);*/
+    width: 100vw;
+    height: 55px;
+    display: inline-block;
+    place-items: center ;
+    bottom: -55px;
+    position: absolute;
+}
+div.foot p {
+    font-size: 1.7rem;
+    font-family: Prociono, sans-serif;
+    color: white;
+}

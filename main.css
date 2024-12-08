@@ -1,0 +1,91 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+:root {
+    --font-color: rgb(255, 174, 0);
+}
+.vid {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+.vid video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: bottom;
+}
+div.outer-container {
+    place-self: center;
+    padding-top: 47.5vh;
+}
+.text {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 2fr 0.5fr 1.5fr;
+}
+.texts {
+    display: grid;
+}
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+.vid .t, .vid .p, .vid .ts, .vid .ps {
+    z-index: 1;
+    color: var(--font-color);
+    margin: auto;
+    font-family: Prociono, sans-serif;
+}
+p.p {
+    width: 100%;
+}
+p.l {
+    text-align: right;
+}
+p.r {
+    padding-left: 5px;
+}
+.t, .ts{
+    font-size: 7vh;
+}
+.p, .ps {
+    font-size: 3vh;
+}
+.text a, .texts a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+.text a:hover, .texts a:hover {
+    filter: brightness(0.75);
+}
+div.foot {
+    background-color: var(--font-color);
+    filter: brightness(0.75);
+    width: 100vw;
+    height: 55px;
+    display: inline-block;
+    place-items: center ;
+    bottom: -55px;
+    position: absolute;
+}
+div.foot p {
+    font-size: 1.7rem;
+    font-family: Prociono, sans-serif;
+    color: white;
+}
+@media screen and (max-width: 1032px) {
+    p.p, p.t {
+        display: none !important;
+    }
+}
+@media screen and (min-width: 1033px) {
+    p.ps, p.ts {
+        display: none !important;
+    }
+}
