@@ -79,7 +79,7 @@ wildlifeBtn.addEventListener('click', () => {
 lifestyleBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.add('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     javaDiv.innerHTML = 
-    `<div class="row cust5">
+    `<div class="row cust4">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960641/hanz_ldvla7.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960634/Lonely_Mountain_wnrkfm.jpg" oncontextmenu="return false;">
     </div>
