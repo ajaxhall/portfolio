@@ -71,7 +71,7 @@ wildlifeBtn.addEventListener('click', () => {
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957583/ND_Bison_hpkoaw.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733700170/birds_1_fd4krw.jpg" oncontextmenu="return false;">
     </div>
-    <div class="row cust10">
+    <div class="row cust8">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957591/DSC00490_1_ogezcr.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957587/MountainGoatTemp_bnmuy8.jpg" oncontextmenu="return false;">
     </div>`

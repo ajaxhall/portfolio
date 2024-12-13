@@ -1,13 +1,17 @@
 html {
     font-size: 62.5%;
+    font-family: Prociono, sans-serif;
 }
 body {
     margin: 0;
     overflow-x: hidden;
 }
 :root {
-    --font-color: rgb(255, 174, 0);
+    --main-theme-color: rgb(255, 174, 0);
+    --contact-theme-color: #2E506D;
 }
+
+/*below only effects main page*/
 .vid {
     width: 100vw;
     height: 100vh;
@@ -24,32 +28,26 @@ div.outer-container {
     place-self: center;
     padding-top: 47.5vh;
 }
-.text {
+.text, .texts, .links {
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr 2fr 0.5fr 1.5fr;
 }
-.texts {
-    display: grid;
+.text {
+    grid-template-columns: 1.5fr 0.5fr 0.1fr 2fr 0.2fr 0.1fr 1.5fr;
 }
 .links {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     margin: auto;
 }
-.vid .t, .vid .p, .vid .ts, .vid .ps {
+.vid p {
     z-index: 1;
-    color: var(--font-color);
+    color: var(--main-theme-color);
     margin: auto;
-    font-family: Prociono, sans-serif;
 }
 p.p {
     width: 100%;
 }
 p.l {
     text-align: right;
-}
-p.r {
-    padding-left: 5px;
 }
 .t, .ts{
     font-size: 7vh;
@@ -59,33 +57,99 @@ p.r {
 }
 .text a, .texts a {
     text-decoration: none;
-    color: var(--font-color);
+    color: var(--main-theme-color);
 }
 .text a:hover, .texts a:hover {
     filter: brightness(0.75);
 }
-div.foot {
-    background-color: var(--font-color);
+div.foot.main {
+    background-color: var(--main-theme-color);
     filter: brightness(0.75);
-    width: 100vw;
-    height: 55px;
-    display: inline-block;
-    place-items: center ;
-    bottom: -55px;
-    position: absolute;
 }
-div.foot p {
-    font-size: 1.7rem;
-    font-family: Prociono, sans-serif;
-    color: white;
-}
-@media screen and (max-width: 1032px) {
+@media (max-aspect-ratio: 16/9) {
     p.p, p.t {
         display: none !important;
     }
 }
-@media screen and (min-width: 1033px) {
+@media (min-aspect-ratio: 16/9) {
     p.ps, p.ts {
         display: none !important;
     }
+}
+@media (aspect-ratio: 16/9) {
+    p.ps, p.ts {
+        display: none !important;
+    }
+}
+
+/*below effects both footers on main page and contact page*/
+div.foot {
+    width: 100vw;
+    height: 55px;
+    position: absolute;
+    bottom: -55px;
+}
+div.foot p {
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+}
+
+/*blelow only for contact page*/
+section.fixed {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+div.forum {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 6.5rem;
+}
+form.inputs, div.back {
+    width: fit-content;
+    margin: auto;
+    display: grid;
+}
+div.back, div.back a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: var(--contact-theme-color);
+    font-size: 2rem;
+}
+a:hover {
+    filter: brightness(0.65);
+}
+input, textarea {
+    width: 300px;
+    border-color: var(--contact-theme-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+}
+textarea#message {
+    height: 70px;
+}
+input:hover {
+    cursor: pointer;
+}
+input[type="submit"] {
+    display: block;
+    width: 150px;
+    height: 36px;
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: var(--contact-theme-color);
+    border-width: 0;
+    color: #F7F8FA;
+    border-radius: 8px 12px;
+}
+div.foot.contact {
+    background-color: var(--contact-theme-color);
 }
