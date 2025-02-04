@@ -71,7 +71,7 @@ wildlifeBtn.addEventListener('click', () => {
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957583/ND_Bison_hpkoaw.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733700170/birds_1_fd4krw.jpg" oncontextmenu="return false;">
     </div>
-    <div class="row cust8">
+    <div class="row cust10">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957591/DSC00490_1_ogezcr.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957587/MountainGoatTemp_bnmuy8.jpg" oncontextmenu="return false;">
     </div>`
@@ -117,6 +117,10 @@ streetBtn.addEventListener('click', () => {
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/backseatwonder_1_hbhaxq_ao5fro.webp" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/structure_mi420n_rilml3.webp" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/hydroelectrica_gt0hwq_esaprb.webp" oncontextmenu="return false;">
+    <div class="row">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1738685171/commute_pqripu.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1738685037/rainorshine_em07aa.jpg" oncontextmenu="return false;">
+    </div>
     <div class="row cust8">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/waiting_isvhwo_pwwtdy.webp" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/Seattle_from_Needles_kew2gl_inx1vp.webp" oncontextmenu="return false;">
