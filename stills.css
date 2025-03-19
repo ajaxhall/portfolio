@@ -56,7 +56,7 @@ div.row {
     display: grid;grid-template-columns: 1fr 1fr;grid-gap: 35px;
 }
 div.cust1 {
-    grid-template-columns: 1fr 1.423fr;
+    grid-template-columns: 1fr 1.2fr;
 }
 div.cust2 {
     grid-template-columns: 1.329fr 1fr;

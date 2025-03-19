@@ -18,7 +18,7 @@ landscapeBtn.addEventListener('click', () => {
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730937147/windmills_ltzspp.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936345/Hyalite_Creek_bxyfm2.jpg" oncontextmenu="return false;">  
     <div class="row cust1">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936354/temporary_s2xnxk.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742421951/Barn_Afore_hz7cxo.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936959/coloradolake_rwiatm.jpg" oncontextmenu="return false;">
     </div>
     <div class="row cust2">
@@ -49,10 +49,12 @@ landscapeBtn.addEventListener('click', () => {
 natureBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.add('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     javaDiv.innerHTML = 
-    `<div class="row vert">
+    `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742421931/glacier_roots_kytojj.jpg" oncontextmenu="return false;">
+    <div class="row vert">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956845/Crammage_Creek_ha38i1.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956844/Material_Earth_kw37ao.jpg" oncontextmenu="return false;">
     </div>
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742422630/rebirth_z2rv0v.jpg" oncontextmenu="return false;">
     <div class="row cust3">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956842/Meadows_Waters_xky1ke.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956847/Muted_Leaves_jtww79.jpg" oncontextmenu="return false;">
