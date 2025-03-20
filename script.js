@@ -54,6 +54,7 @@ natureBtn.addEventListener('click', () => {
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956845/Crammage_Creek_ha38i1.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956844/Material_Earth_kw37ao.jpg" oncontextmenu="return false;">
     </div>
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742445491/rushing_c7u5os.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742422630/rebirth_z2rv0v.jpg" oncontextmenu="return false;">
     <div class="row cust3">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956842/Meadows_Waters_xky1ke.jpg" oncontextmenu="return false;">
