@@ -130,6 +130,7 @@ div.cust12 {
     }
     img {
         padding-bottom: 20px;
+        pointer-events: none;
     }
     nav.navbar, nav.navbar2 {
         display: none !important;
