@@ -12,6 +12,9 @@
     <body>
         <main>
             <section>
+                <div onclick="MenuButton(this)">
+                    <button id="mobile-btn" class="mobile-btn hidden" onclick="myFunction(this)"><div class="bar1"></div><div class="bar2"></div><div class="bar3"></div></button>
+                </div>
                 <aside>
                     <div class="nav">
                         <nav class="navbar">
@@ -37,7 +40,7 @@
                         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730937147/windmills_ltzspp.jpg" oncontextmenu="return false;">
                         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936345/Hyalite_Creek_bxyfm2.jpg" oncontextmenu="return false;">  
                         <div class="row cust1">
-                            <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936354/temporary_s2xnxk.jpg" oncontextmenu="return false;">
+                            <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742421951/Barn_Afore_hz7cxo.jpg" oncontextmenu="return false;">
                             <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936959/coloradolake_rwiatm.jpg" oncontextmenu="return false;">
                         </div>
                         <div class="row cust2">
@@ -78,6 +81,21 @@
                     </div>
                 </aside>
             </section>
+            <div class="mobnavdiv" id="mobnavdiv">
+                <nav class="mobnav" id="genre-links">
+                    <ul class="ul3">
+                        <li><button class="btns bold" id="landscapeM">Landscape</button></li>
+                        <li><button class="btns" id="natureM">Nature</button></li>
+                        <li><button class="btns" id="wildlifeM">Wildlife</button></li>
+                        <li><button class="btns" id="lifestyleM">Lifestyle</button></li>
+                        <li><button class="btns" id="streetM">Street</button></li>
+                        <li><button class="btns" id="portraitM">Portrait</button></li>
+                        <li><button class="btns" id="miscM">Misc</button></li>
+                        <li><button class="btns" id="designM">Design</button></li>
+                        <li><button class="btns" id="productM">Product</button></li>
+                    </ul>
+                </nav>
+            </div>
         </main>
         <script src="script.js"></script>
     </body>
