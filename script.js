@@ -41,12 +41,9 @@ const UpdateButton = () => {
     }
 }
 
-const MenuButton = (x) => {
-    x.classList.toggle("change");
-}
-
 landscapeBtn.addEventListener('click', () => {
     landscapeBtn.classList.add('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.add('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936344/lake_mcdonald_w0zlzs.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936347/Pheonix_Skyline_icwyzd.jpg" oncontextmenu="return false;">
@@ -84,6 +81,7 @@ landscapeBtn.addEventListener('click', () => {
 });
 natureBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.add('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.add('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742421931/glacier_roots_kytojj.jpg" oncontextmenu="return false;">
     <div class="row vert">
@@ -95,10 +93,11 @@ natureBtn.addEventListener('click', () => {
     <div class="row cust3">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956842/Meadows_Waters_xky1ke.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956847/Muted_Leaves_jtww79.jpg" oncontextmenu="return false;">
-    </div>`
+    </div>`;
 });
 wildlifeBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.add('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.add('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957590/NDgoats_land_16x9_u6b1in.jpg" oncontextmenu="return false;">
     <div class="row cust11">
@@ -118,6 +117,7 @@ wildlifeBtn.addEventListener('click', () => {
 });
 lifestyleBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.add('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.add('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row cust4">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960641/hanz_ldvla7.jpg" oncontextmenu="return false;">
@@ -145,6 +145,7 @@ lifestyleBtn.addEventListener('click', () => {
 });
 streetBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.add('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.add('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row vert">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/One_Way_Up_n58nkh_idulhz.webp" oncontextmenu="return false;">
@@ -172,6 +173,7 @@ streetBtn.addEventListener('click', () => {
 });
 portraitBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.add('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.add('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row cust4">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957816/Seeing_Double_ve4ita.jpg" oncontextmenu="return false;">
@@ -184,6 +186,7 @@ portraitBtn.addEventListener('click', () => {
 });
 miscBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.add('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.add('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row vert">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959207/pic_-58_ygv0nv.jpg" oncontextmenu="return false;">
@@ -193,6 +196,7 @@ miscBtn.addEventListener('click', () => {
 });
 designBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.add('bold'); productBtn.classList.remove('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.add('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row cust6">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730958315/ONE_frminv_qiuzfe.jpg" oncontextmenu="return false;">
@@ -205,6 +209,7 @@ designBtn.addEventListener('click', () => {
 });
 productBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.add('bold');
+    landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.add('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730961164/BikeTire_gchys7.jpg" oncontextmenu="return false;">`
 });
@@ -212,6 +217,7 @@ productBtn.addEventListener('click', () => {
 //duplicate below for mobile links
 
 landscapeBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.add('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.add('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936344/lake_mcdonald_w0zlzs.jpg" oncontextmenu="return false;">
@@ -246,9 +252,12 @@ landscapeBtnM.addEventListener('click', () => {
     <div class="row">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936357/YellowstoneCliff_cye7dm.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730936351/Snowy_Flatbed_zuegvi.jpg" oncontextmenu="return false;">
-    </div>`
+    </div>`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 natureBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.add('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.add('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742421931/glacier_roots_kytojj.jpg" oncontextmenu="return false;">
@@ -261,9 +270,12 @@ natureBtnM.addEventListener('click', () => {
     <div class="row cust3">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956842/Meadows_Waters_xky1ke.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730956847/Muted_Leaves_jtww79.jpg" oncontextmenu="return false;">
-    </div>`
+    </div>`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 wildlifeBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.add('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.add('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957590/NDgoats_land_16x9_u6b1in.jpg" oncontextmenu="return false;">
@@ -280,9 +292,12 @@ wildlifeBtnM.addEventListener('click', () => {
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957591/DSC00490_1_ogezcr.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957587/MountainGoatTemp_bnmuy8.jpg" oncontextmenu="return false;">
     </div>
-    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742488553/camo_nulwit.jpg" oncontextmenu="return false;">`
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742488553/camo_nulwit.jpg" oncontextmenu="return false;">`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 lifestyleBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.add('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.add('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row cust4">
@@ -307,9 +322,12 @@ lifestyleBtnM.addEventListener('click', () => {
     <div class="row vert">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960638/Noah_Hammocking_osrkgp.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730962007/karmabike_rweo9j.jpg" oncontextmenu="return false;">
-    </div>`
+    </div>`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 streetBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.add('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.add('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row vert">
@@ -334,9 +352,12 @@ streetBtnM.addEventListener('click', () => {
     <div class="row cust12">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/waiting_isvhwo_pwwtdy.webp" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742166637/Patty_s_Day_2025_puwslk.jpg" oncontextmenu="return false;">
-    </div>`
+    </div>`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 portraitBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.add('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.add('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row cust4">
@@ -346,18 +367,24 @@ portraitBtnM.addEventListener('click', () => {
     <div class="row cust5">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957814/star_q8n8ie.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957813/noah_qcbmz4.jpg" oncontextmenu="return false;">
-    </div>`
+    </div>`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 miscBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.add('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.add('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row vert">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959207/pic_-58_ygv0nv.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959207/pic_-59_vrx8js.jpg" oncontextmenu="return false;">
     </div>
-    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959206/paracasrooftop_ou4mvl.jpg" oncontextmenu="return false;">`
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959206/paracasrooftop_ou4mvl.jpg" oncontextmenu="return false;">`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 designBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.add('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.add('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<div class="row cust6">
@@ -367,10 +394,19 @@ designBtnM.addEventListener('click', () => {
     <div class="row vert">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959055/chair_poster_subrf3.jpg" oncontextmenu="return false;">
         <img src="" oncontextmenu="return false;">
-    </div>`
+    </div>`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
 productBtnM.addEventListener('click', () => {
+    landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.add('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.add('bold');
     javaDiv.innerHTML = 
-    `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730961164/BikeTire_gchys7.jpg" oncontextmenu="return false;">`
+    `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730961164/BikeTire_gchys7.jpg" oncontextmenu="return false;">`;
+    buttonState = !buttonState;
+    UpdateButton();
 });
+
+const MenuButton = (x) => {
+    x.classList.toggle("change");
+}
