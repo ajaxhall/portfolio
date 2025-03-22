@@ -5,9 +5,10 @@ html {
 body {
     margin: 0;
     overflow-x: hidden;
+    padding: 0px;
 }
 :root {
-    --main-theme-color: rgb(255, 174, 0);
+    --main-theme-color: rgb(255, 181, 22);
     --contact-theme-color: #2E506D;
 }
 
@@ -102,9 +103,8 @@ section.fixed {
     height: 100vh;
 }
 div.forum {
-    width: 800px;
+    width: 100vw;
     height: 800px;
-    margin: auto;
 }
 h1 {
     text-align: center;
@@ -112,7 +112,7 @@ h1 {
     font-size: 6.5rem;
 }
 form.inputs, div.back {
-    width: fit-content;
+    width: 342px;
     margin: auto;
     display: grid;
 }
@@ -121,16 +121,18 @@ div.back, div.back a {
     text-decoration: none;
     color: var(--contact-theme-color);
     font-size: 2rem;
+    margin: auto;
+    padding-bottom: 10px;
 }
 a:hover {
     filter: brightness(0.65);
 }
 input, textarea {
-    width: 300px;
+    width: 87%;
     border-color: var(--contact-theme-color);
     border-radius: 5px;
     padding: 10px;
-    margin: 10px;
+    margin: 10px auto;
     font-size: 1.5rem;
 }
 textarea#message {
@@ -150,6 +152,17 @@ input[type="submit"] {
     color: #F7F8FA;
     border-radius: 8px 12px;
 }
+input[type="submit"]:hover {
+    color: rgba(var(--contact-theme-color), 0.9);
+}
 div.foot.contact {
     background-color: var(--contact-theme-color);
+}
+@media (max-width: 380px) {
+    h1 {
+        font-size: 17vw;
+    }
+    form.inputs, div.back {
+        width: 90vw;
+    }
 }
