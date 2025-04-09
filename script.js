@@ -169,6 +169,10 @@ streetBtn.addEventListener('click', () => {
     <div class="row cust12">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/waiting_isvhwo_pwwtdy.webp" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742166637/Patty_s_Day_2025_puwslk.jpg" oncontextmenu="return false;">
+    </div>
+    <div class="row cust13">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744225074/delivery_v8yfj9.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744225739/restoration_swvbrn.jpg" oncontextmenu="return false;">
     </div>`
 });
 portraitBtn.addEventListener('click', () => {
@@ -352,6 +356,10 @@ streetBtnM.addEventListener('click', () => {
     <div class="row cust12">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/waiting_isvhwo_pwwtdy.webp" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742166637/Patty_s_Day_2025_puwslk.jpg" oncontextmenu="return false;">
+    </div>
+    <div class="row cust13">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744225074/delivery_v8yfj9.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744225739/restoration_swvbrn.jpg" oncontextmenu="return false;">
     </div>`;
     buttonState = !buttonState;
     UpdateButton();
