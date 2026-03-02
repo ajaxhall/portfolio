@@ -331,12 +331,13 @@ lifestyleBtnM.addEventListener('click', () => {
     buttonState = !buttonState;
     UpdateButton();
 });
-streetBtnM.addEventListener('click', () => {
+streetBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.add('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.add('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/hydroelectrica_gt0hwq_esaprb.webp" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/structure_mi420n_rilml3.webp" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1772412561/man_smoking_chinatown_1_a8pgvq.jpg" oncontextmenu="return false;">
     <div class="row cust7">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959441/walker_x7vyry.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959527/clover_carrier_dc8xdb.jpg" oncontextmenu="return false;">
@@ -419,4 +420,5 @@ productBtnM.addEventListener('click', () => {
 
 const MenuButton = (x) => {
     x.classList.toggle("change");
+
 }
