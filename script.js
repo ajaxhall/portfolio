@@ -176,7 +176,8 @@ portraitBtn.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.add('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.add('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
-    `<div class="row cust4">
+    `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1772412561/books_aiktmo.jpg" oncontextmenu="return false;">
+    <div class="row cust4">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957816/Seeing_Double_ve4ita.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957818/2Factor_cl9buf.jpg" oncontextmenu="return false;">
     </div>
@@ -422,3 +423,4 @@ const MenuButton = (x) => {
     x.classList.toggle("change");
 
 }
+
