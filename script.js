@@ -149,6 +149,7 @@ streetBtn.addEventListener('click', () => {
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/hydroelectrica_gt0hwq_esaprb.webp" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/structure_mi420n_rilml3.webp" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1772412561/man_smoking_chinatown_1_a8pgvq.jpg" oncontextmenu="return false;">
     <div class="row cust7">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959441/walker_x7vyry.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959527/clover_carrier_dc8xdb.jpg" oncontextmenu="return false;">
@@ -332,11 +333,12 @@ lifestyleBtnM.addEventListener('click', () => {
     buttonState = !buttonState;
     UpdateButton();
 });
-streetBtn.addEventListener('click', () => {
+streetBtnM.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.add('bold'); portraitBtn.classList.remove('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.add('bold'); portraitBtnM.classList.remove('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
     `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/hydroelectrica_gt0hwq_esaprb.webp" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1781788332/Bologna_Italy_2026_eaoyxi.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/structure_mi420n_rilml3.webp" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1772412561/man_smoking_chinatown_1_a8pgvq.jpg" oncontextmenu="return false;">
     <div class="row cust7">
@@ -344,6 +346,7 @@ streetBtn.addEventListener('click', () => {
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959527/clover_carrier_dc8xdb.jpg" oncontextmenu="return false;">
     </div>
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/backseatwonder_1_hbhaxq_ao5fro.webp" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1781788332/Venice_Italy_2026_jxgxt1.jpg" oncontextmenu="return false;">
     <div class="row">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1738685171/commute_pqripu.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1738685037/rainorshine_em07aa.jpg" oncontextmenu="return false;">
@@ -368,7 +371,8 @@ portraitBtnM.addEventListener('click', () => {
     landscapeBtn.classList.remove('bold'); natureBtn.classList.remove('bold'); wildlifeBtn.classList.remove('bold'); lifestyleBtn.classList.remove('bold'); streetBtn.classList.remove('bold'); portraitBtn.classList.add('bold'); miscBtn.classList.remove('bold'); designBtn.classList.remove('bold'); productBtn.classList.remove('bold');
     landscapeBtnM.classList.remove('bold'); natureBtnM.classList.remove('bold'); wildlifeBtnM.classList.remove('bold'); lifestyleBtnM.classList.remove('bold'); streetBtnM.classList.remove('bold'); portraitBtnM.classList.add('bold'); miscBtnM.classList.remove('bold'); designBtnM.classList.remove('bold'); productBtnM.classList.remove('bold');
     javaDiv.innerHTML = 
-    `<div class="row cust4">
+    `<img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1772412561/books_aiktmo.jpg" oncontextmenu="return false;">
+    <div class="row cust4">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957816/Seeing_Double_ve4ita.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730957818/2Factor_cl9buf.jpg" oncontextmenu="return false;">
     </div>
@@ -391,6 +395,11 @@ miscBtnM.addEventListener('click', () => {
     <div class="row vert">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/One_Way_Up_n58nkh_idulhz.webp" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686568/floral_jiw6el_ykiruo.webp" oncontextmenu="return false;">
+    </div>
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1781788332/Venice_Italy_2026_3_bz8srv.jpg" oncontextmenu="return false;">
+    <div class="row vert">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1781788332/Venice_Italy_2026_2_tuymxo.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1781790627/HD_transparent_picture_h7qqli.png" oncontextmenu="return false;">
     </div>`;
     buttonState = !buttonState;
     UpdateButton();
@@ -421,6 +430,4 @@ productBtnM.addEventListener('click', () => {
 
 const MenuButton = (x) => {
     x.classList.toggle("change");
-
 }
-
