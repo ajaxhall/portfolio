@@ -131,6 +131,9 @@ div.cust13 {
 div.cust14 {
     grid-template-columns: 1.275fr 1fr;
 }
+div.cust15 {
+    grid-template-columns: 2fr 1fr;
+}
 @media (max-aspect-ratio: 5/4) {
     section {
         grid-template-columns: 2fr 0 98fr 0;

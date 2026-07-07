@@ -169,7 +169,10 @@ streetBtn.addEventListener('click', () => {
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/waiting_isvhwo_pwwtdy.webp" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742166637/Patty_s_Day_2025_puwslk.jpg" oncontextmenu="return false;">
     </div>
+    <div class="row cust15">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744227102/Late_Night_Delivery_vzb3wc.jpg" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1783460292/Bleeker_St_-_NY_NY_ldwded.jpg" oncontextmenu="return false;">
+    </div>
     <div class="row cust14">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744225739/restoration_swvbrn.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744324951/restoration2_whledz.jpg" oncontextmenu="return false;">
@@ -366,7 +369,10 @@ streetBtnM.addEventListener('click', () => {
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686567/waiting_isvhwo_pwwtdy.webp" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742166637/Patty_s_Day_2025_puwslk.jpg" oncontextmenu="return false;">
     </div>
+    <div class="row cust15">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744227102/Late_Night_Delivery_vzb3wc.jpg" oncontextmenu="return false;">
+    <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1783460292/Bleeker_St_-_NY_NY_ldwded.jpg" oncontextmenu="return false;">
+    </div>
     <div class="row cust14">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744225739/restoration_swvbrn.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1744324951/restoration2_whledz.jpg" oncontextmenu="return false;">
