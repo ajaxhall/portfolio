@@ -134,13 +134,13 @@ lifestyleBtn.addEventListener('click', () => {
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960638/FenwayPark_temp_oqxxla.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960637/arizonasoccerrunning_d1llyp.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960637/graydune_dihodl.jpg" oncontextmenu="return false;">
-    <div class="row cust10">
+    <div class="row cust16">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742445503/riverside_r_r_gvtjc7.jpg" oncontextmenu="return false;">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960639/Raid_Hammocking_e24szc.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1794495922/EmptyName_2_u31bg3.jpg" oncontextmenu="return false;">
     </div>
     <div class="row vert">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960638/Noah_Hammocking_osrkgp.jpg" oncontextmenu="return false;">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730962007/karmabike_rweo9j.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960639/Raid_Hammocking_e24szc.jpg" oncontextmenu="return false;">
     </div>`
 });
 streetBtn.addEventListener('click', () => {
@@ -153,7 +153,7 @@ streetBtn.addEventListener('click', () => {
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1772412561/man_smoking_chinatown_1_a8pgvq.jpg" oncontextmenu="return false;">
     <div class="row cust7">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959441/walker_x7vyry.jpg" oncontextmenu="return false;">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959527/clover_carrier_dc8xdb.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1794496010/EmptyName_misfkz.jpg" oncontextmenu="return false;">
     </div>
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/backseatwonder_1_hbhaxq_ao5fro.webp" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1781788332/Venice_Italy_2026_jxgxt1.jpg" oncontextmenu="return false;">
@@ -332,13 +332,13 @@ lifestyleBtnM.addEventListener('click', () => {
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960638/FenwayPark_temp_oqxxla.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960637/arizonasoccerrunning_d1llyp.jpg" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960637/graydune_dihodl.jpg" oncontextmenu="return false;">
-    <div class="row cust10">
+    <div class="row cust16">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1742445503/riverside_r_r_gvtjc7.jpg" oncontextmenu="return false;">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960639/Raid_Hammocking_e24szc.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1794495922/EmptyName_2_u31bg3.jpg" oncontextmenu="return false;">
     </div>
-    <div class="row vert">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960638/Noah_Hammocking_osrkgp.jpg" oncontextmenu="return false;">
+    <div class="row cust10">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730962007/karmabike_rweo9j.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730960639/Raid_Hammocking_e24szc.jpg" oncontextmenu="return false;">
     </div>`;
     buttonState = !buttonState;
     UpdateButton();
@@ -353,7 +353,7 @@ streetBtnM.addEventListener('click', () => {
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1772412561/man_smoking_chinatown_1_a8pgvq.jpg" oncontextmenu="return false;">
     <div class="row cust7">
         <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959441/walker_x7vyry.jpg" oncontextmenu="return false;">
-        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1730959527/clover_carrier_dc8xdb.jpg" oncontextmenu="return false;">
+        <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1794496010/EmptyName_misfkz.jpg" oncontextmenu="return false;">
     </div>
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1733686566/backseatwonder_1_hbhaxq_ao5fro.webp" oncontextmenu="return false;">
     <img src="https://res.cloudinary.com/da0eehdqv/image/upload/v1781788332/Venice_Italy_2026_jxgxt1.jpg" oncontextmenu="return false;">
